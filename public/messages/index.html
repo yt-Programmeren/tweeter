@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <style>
+        h1 { text-align: center }
+        header {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        header h3 { margin: 0 2rem }
+        div #name, div #time { display: inline-block }
+        div #name { 
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+        div #time { font-style: italic }
+        div {
+            padding: 6px 10px;
+            border: 1px solid #D1D1D1;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter🐣 - View Messages</title>
+</head>
+<body>
+    <h1>Tweeter🐣</h1>
+    <header>
+        <h3><a href="/">Send Message</a></h3>
+        <h3><a href="/messages">View Messages</a></h3>
+    </header>
+    <script src="/messages/get-msg.js"></script>
+</body>
+</html>
